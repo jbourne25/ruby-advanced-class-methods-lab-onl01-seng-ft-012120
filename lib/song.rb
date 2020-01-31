@@ -25,7 +25,7 @@ class Song
   end 
   
   def self.find_by_name(title)
-    title = self.new_by_name
+    solution = detect
   end 
     
   def save
