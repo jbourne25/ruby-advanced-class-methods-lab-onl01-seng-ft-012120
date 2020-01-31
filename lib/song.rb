@@ -4,9 +4,6 @@ class Song
   
   def self.create
     song = Song.new 
-    #song.name = name 
-    #song = self.new 
-    #song.name = name  
     @@all << song
     song 
   end 
@@ -14,6 +11,10 @@ class Song
   def self.all
     @@all
   end
+  
+  def self.new_by_name(song_name) 
+    @@all.find{ |song| 
+  end 
 
   def save
     self.class.all << self
