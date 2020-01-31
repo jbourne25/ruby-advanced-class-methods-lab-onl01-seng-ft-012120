@@ -22,7 +22,7 @@ class Song
     #song = Song.new 
     #song.name = name
     song = self.create 
-    @@all << song 
+    #@@all << song 
     #song 
   end 
     
