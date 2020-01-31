@@ -20,8 +20,8 @@ class Song
   
   def self.create_by_name(title)
     #song = Song.title
-    #song.name = title 
-    song = self.create 
+    song = self.create
+    song.name = title 
     #@@all << song 
     song 
   end 
