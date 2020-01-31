@@ -22,6 +22,7 @@ class Song
     song = Song.new 
     song.name = name 
     @@all << song 
+    song 
   end 
     
   def save
