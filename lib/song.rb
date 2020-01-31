@@ -28,6 +28,9 @@ class Song
     solution = self.all.detect{ |song| song.name == title }
     solution 
   end 
+  
+  def self.find_or_create_by_name(title)
+    
     
   def save
     self.class.all << self
