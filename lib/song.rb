@@ -12,8 +12,10 @@ class Song
     @@all
   end
   
-  def self.new_by_name(song_name) 
-    @@all.find{ |song| 
+  def self.new_by_name(title) 
+    song = Song.new 
+    song.name = title 
+    song 
   end 
 
   def save
