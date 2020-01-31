@@ -7,7 +7,8 @@ class Song
     #song.name = name 
     #song = self.new 
     #song.name = name  
-    @@all << song 
+    @@all << song
+    song 
   end 
 
   def self.all
