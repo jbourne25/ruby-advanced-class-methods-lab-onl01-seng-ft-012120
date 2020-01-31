@@ -23,7 +23,7 @@ class Song
     #song.name = title 
     song = self.create 
     #@@all << song 
-    #song 
+    song 
   end 
     
   def save
