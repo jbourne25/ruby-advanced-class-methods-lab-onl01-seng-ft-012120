@@ -37,6 +37,10 @@ class Song
       self.create_by_name(title)
     end
   end
+  
+  def self.alphabetical 
+    @@all.sort_by{ |a <=> b| 
+  end 
     
   def save
     self.class.all << self
